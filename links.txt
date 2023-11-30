@@ -1,0 +1,3 @@
+original=https://raw.githubusercontent.com/yesmanic/SVG-XSS/393a8140537da175bbab43549e2d3e3e7cd24dc2/svgs/original.svg
+alert=https://raw.githubusercontent.com/yesmanic/SVG-XSS/393a8140537da175bbab43549e2d3e3e7cd24dc2/svgs/alert.svg
+input=https://raw.githubusercontent.com/yesmanic/SVG-XSS/18c1b47803c2654f82b6273fc79e3bd0861391e1/svgs/input.svg
