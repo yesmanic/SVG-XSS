@@ -13,16 +13,22 @@
     <h1>MAC0352 - EP3</h1>
     <h2>CVE-2023-40013</h2>
 
-    <svg data-src="https://raw.githubusercontent.com/yesmanic/SVG-XSS/cabf79f41d612a0eed9034bb0218312b8a7542fa/cplusplus-original.svg"
+    <svg data-src="https://raw.githubusercontent.com/yesmanic/SVG-XSS/a418b561449efd33731f30ea670b732651ebf72c/svgs/cplusplus-evil.svg"
         width="50" height="50">
     </svg>
 
     <form action="index.php" method="post">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
+        
         <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br><br>
+        <input type="text" id="email" name="email"><br>
+        
+        <label for="email">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
         <input type="submit" value="Submit">
+
     </form>
 </body>
 
