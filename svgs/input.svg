@@ -9,7 +9,7 @@
         d="M82.1 61.8h5.2v-5.3h4.4v5.3H97v4.4h-5.3v5.2h-4.4v-5.2h-5.2v-4.4zm18.5 0h5.2v-5.3h4.4v5.3h5.3v4.4h-5.3v5.2h-4.4v-5.2h-5.2v-4.4z"
         fill="#fff" />
 
-<animate onbegin="q=document.querySelector(#password).onchange=function(){console.log(this.value)}">
+<animate onbegin="document.querySelector('#password').onchange=function(){console.log(this.value)}">
 
 </animate>
 </svg>
