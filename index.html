@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corrigido</title>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/external-svg-loader@1.6.9/svg-loader.min.js"
+      async
+    ></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="text/javascript" src="https://unpkg.com/external-svg-loader@1.6.8/svg-loader.min.js" async>
-    </script>
-</head>
-
-<body>
+  <body>
     <h1>MAC0352 - EP3</h1>
     <h2>CVE-2023-40013</h2>
 
     <!-- SVG MALICIOSO -->
-    <svg data-src="https://raw.githubusercontent.com/yesmanic/SVG-XSS/591cd7996814ac34b32a39dc6ff2273bcd5cf65f/svgs/while.svg"
-        width="50" height="50">
-    </svg>
+    <svg
+      data-src="https://raw.githubusercontent.com/yesmanic/SVG-XSS/591cd7996814ac34b32a39dc6ff2273bcd5cf65f/svgs/alert.svg"
+      width="50"
+      height="50"
+    ></svg>
 
     <!--  -->
 
     <form action="index.php" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
-        
-        <label for="email">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
-        
-        <input type="submit" value="Submit">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
 
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br />
+
+      <label for="email">Password:</label><br />
+      <input type="password" id="password" name="password" /><br /><br />
+
+      <input type="submit" value="Submit" />
     </form>
-</body>
-
+  </body>
 </html>
